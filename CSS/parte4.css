@@ -1,0 +1,58 @@
+.rodape{color:rgb(196, 196, 196);
+background-color: black;
+display: block;
+padding : 80px;
+}
+.parte4 {
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap:54.5px;
+max-width: 1200px;
+align-content: center;
+margin: 0 auto;
+
+}
+
+.p4esq>h1{
+  position: relative;
+
+}
+
+.p4esq>h1::after{
+  width: 150px;
+  height: 100px;
+  display: block;
+  content: "";
+  background: url(../IMG/detalhe.svg) no-repeat center;
+  position: absolute;
+  z-index: 99;
+  top: -130px;
+}
+
+.p4esq>h1{
+  font-size: 24px;
+  font-weight: 100;
+  padding-bottom: 150px;
+  padding-top: 100px;
+
+}
+
+.contato{
+  padding-top: px;
+  font-size: 35px;
+  font-weight: 900;
+  color: white;
+}
+li{
+  list-style: none;
+  margin-top: 25px;
+
+
+}
+li>a{
+  color: white;
+}
+footer> div{
+color: gray;
+font-size: 18px ;
+}

@@ -1,0 +1,117 @@
+.parte2{
+  max-width: 1200px;
+  align-content: center;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  padding: 80px;
+  gap: 80px;
+  padding-bottom: 40px;
+}
+.exesquerda{
+  color: gray;
+  font-weight: 800;
+  font-size: 130px;
+}
+
+.Bikcraft {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: rgb(226, 226, 226);
+  padding: 20px;
+  padding-bottom: 5px;
+  margin-top: 75px;
+  border-radius: 4px;
+  position: relative;
+}
+
+
+.Surfbot {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: rgb(226, 226, 226);
+  padding:20px;
+  margin-top: 20px;
+  border-radius: 4px;
+  position: relative;
+}
+
+.Brafé{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: rgb(226, 226, 226);
+  padding:20px;
+  margin-top: 20px;
+  border-radius: 4px;
+  padding-bottom: 5px;
+  position: relative;
+}
+
+.Bikcraft::after, .Surfbot::after, .Brafé::after{
+  content: "";
+  z-index: 99;
+  width: 0.35rem;
+  height: 1.5rem;
+  background-color: greenyellow;
+  position: absolute;
+  left: -4px;
+  top: 17px;
+}
+
+.b1, .b2, .b3{
+  position: relative;
+}
+.b1::before{
+  font-size: 0.9rem;
+  content: "2045";
+  position: absolute;
+  left: -70px;
+}
+.b2::before{
+  font-size: 0.9rem;
+  content: "2044-45";
+  position: absolute;
+  left: -90px;
+}
+
+.b3::before{
+  font-size: 0.9rem;
+  content: "2044";
+  position: absolute;
+  left: -70px;
+}
+
+h2{
+  font-weight: 100;
+  color: rgb(17, 17, 17);
+  max-width: 550px;
+}
+
+
+.pbikcraft {
+padding-top: 10px;
+font-size: 0.91rem;
+}
+
+.skills {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 0px;
+}
+
+
+.skills > li{
+background-color: rgb(255, 255, 255);
+padding: 5px 10px;
+border-radius: 2px;
+margin: 0px;
+}
+
+.blocoskill1 {
+  padding-left: 15px;
+}
+
+
+
