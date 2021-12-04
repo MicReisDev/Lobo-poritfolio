@@ -56,3 +56,33 @@ footer> div{
 color: gray;
 font-size: 18px ;
 }
+
+@media (max-width: 800px){
+.parte4{
+  grid-template-columns: 1fr;
+}
+.parte4 h1 {
+  padding: 0px;
+}
+
+.rodape{
+  padding: 30px 20px;
+}
+.p4esq>h1{
+  position: relative;
+
+}
+
+.p4esq>h1::after{
+ background: none;
+}
+.contato{
+  margin: 0px;
+  padding: 0px;
+}
+.contato li{
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 30px;
+}
+}

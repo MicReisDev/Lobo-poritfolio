@@ -180,3 +180,27 @@
     top:44px;
     left: -35px;
   }
+
+  @media (max-width: 800px){
+
+  .p3backgroud{
+    grid-template-columns: 1fr;
+    padding-top: 0px;
+    margin-top: 0px;
+  }
+    
+  .parte3{
+    grid-template-columns: 1fr;
+    padding: 20px
+
+  }
+  .formação{
+    font-size: 0px;
+  }
+  .ci::before {
+    left: 135px;
+  }
+  .idio::before{
+    left: 180px;
+  }
+  }
