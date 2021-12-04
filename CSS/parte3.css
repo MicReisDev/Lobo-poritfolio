@@ -191,9 +191,11 @@
     
   .parte3{
     grid-template-columns: 1fr;
-    padding: 20px
-
+    padding: 20px;
+    justify-content: center;
   }
+  
+  
   .formação{
     font-size: 0px;
   }
