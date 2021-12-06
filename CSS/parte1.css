@@ -89,6 +89,12 @@ header {
 }
 
 @media (max-width: 800px){
+  html{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: auto;
+  }
+
   .detalhe h1{
     font-size: 45px;
     margin: 0px auto;
@@ -105,27 +111,25 @@ header {
       margin: 0px auto;
       display: grid;
       grid-template-columns: 1fr;
-      justify-content: space-between;
     }
     
       .lobotxt{    
         justify-self: center;
-        margin: 0px;
-        padding: 0px;
+        margin: 10px;
+        padding: 5px;
       }
 
       .menu-header{
-        margin-bottom: -10px;
+        margin-top: -80px;
       }
       
       .menu-header ul {
-        display: flex;
-        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
         justify-content: center;
-        margin: 0px;
         list-style: none;
-        gap: 30px;
-        padding: 0px;
+        gap: 10px;
+        padding: 30px;
     
       }
     
@@ -139,6 +143,7 @@ header {
     }
     .apresentaçao{
       grid-template-columns: 1fr;
+      gap: 0px;
     }
     
     

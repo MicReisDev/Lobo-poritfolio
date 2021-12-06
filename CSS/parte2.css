@@ -119,15 +119,35 @@ margin: 0px;
   grid-template-columns: 1fr;
   padding: 0px 20px 20px;
   margin-top: 0px;
+  gap: 10px;
+
 }
 .Bikcraft, .Brafé {
   padding: 20px;
 }
 .exesquerda {
   font-size: 0px;
+  position: relative;
   }
+  .exesquerda::after {
+    content: "Experiencia";
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    position: absolute;
+    top: 160px;
+    right: 130px;
+  }
+
+  .exdireita{
+    
+    
+  }
+
   .exdireita>h2{
-    padding: 0px 60px;
+    padding: 0px;
+    text-align: center;
+    align-content: center;
   }
   .b1, .b2, .b3{
     text-align: left;

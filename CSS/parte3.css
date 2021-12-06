@@ -193,16 +193,26 @@
     grid-template-columns: 1fr;
     padding: 20px;
     justify-content: center;
+    gap: 25px
   }
-  
+  .parte3>h3{}
   
   .formação{
     font-size: 0px;
   }
+  .formação::after{
+    content: "FORMAÇÃO";
+    font-size: 40px;
+    color: white;
+  }
   .ci::before {
-    left: 135px;
+    left: 145px;
   }
   .idio::before{
-    left: 180px;
+    left: 60px;
   }
   }
+
+.cursoi{
+text-align: left;
+}
